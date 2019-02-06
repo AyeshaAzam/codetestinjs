@@ -1,0 +1,124 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    color: #fff;
+    letter-spacing: 2px;
+
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 460px;
+    margin: 20px auto;
+    background: #2f3142;   
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid #aaa;
+}
+
+
+#contactSearch{
+    position: relative;
+    /* color: #aaa; */
+    font-size: 16px; 
+   }
+
+    #contactSearch input{
+        width: 350px;
+        height: 32px; 
+        text-indent: 20px;
+        background: #3a3d52;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        color: #aaa;
+        margin-left: 47px;
+    }
+
+    
+    #contactSearch .fa-search{
+        position: absolute; 
+        /* display: inline-block; */
+        top: 2px;
+        left: -40px;  
+        width: 20px;
+        height: 20px;
+        color: #aaa;
+        position: relative;
+    }
+     
+
+ 
+  #contactFilter{
+    display: block;
+    float: right;
+    margin-right: 30px;
+    padding:24px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+ 
+
+        /* .favourite {
+            background-color: gold;
+        } */
+
+        #rubrik {
+            color: #fff ;
+            font-weight: bold;
+            margin-left: 45px;
+            padding: 0px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #contactDetails {
+         display: none; /* hidden by default */
+          height: 450px;    
+          margin: 25px;
+          padding: 10px;
+          background:  #b7c0ce;
+          border: 1px solid #aaa;
+          border-radius: 5px;
+          color: #000;
+        }
+
+        #contact-list {
+          margin: 40px;
+          padding: 10px;
+        }
+
+        .contactName {
+            background: #3a3d52;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            padding: 10px;
+            margin:1px;
+        }
+
+        #close-details {
+          display: block;
+          float: right;
+          font-size: 20px;
+          margin-top: -8px;
+          /*margin-right: -40px;*/
+        }
+
+        #favourite {
+          display: block;
+          float: right;
+          color: gold;
+          font-size: 24px;
+          margin-right: 160px;
+        }
+
+       
+
+       
+         
